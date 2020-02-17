@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include 'include/head.html' %}
+
+<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.checked {
+  color: orange;
+}
+
+
+*{margin:0; padding:0;}
+div.star-rating > span.star{
+  display:inline-block;
+  width: 30px;height: 60px;
+  cursor: pointer;
+}
+div.star-rating > span.star_left{
+  background: url(http://gahyun.wooga.kr/main/img/testImg/star.png) no-repeat 0 0;
+  background-size: 60px;
+  margin-right: -3px;
+}
+div.star-rating > span.star_right{
+  background: url(http://gahyun.wooga.kr/main/img/testImg/star.png) no-repeat -30px 0;
+  background-size: 60px;
+  margin-left: -3px;
+}
+div.star-rating > span.star.on{
+  background-image: url(http://gahyun.wooga.kr/main/img/testImg/star_on.png);
+}
+
+</style>
+
+
+  <nav class="navbar navbar-light custom-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="/">영화 평점 분석</a>
+
+      <a href="#" class="burger" data-toggle="collapse" data-target="#main-navbar">
+        <span></span>
+      </a>
+
+    </div>
+  </nav>
+
+  <main id="main">
+
+    <form action="/main" method="post" role="form">
+
+    <div class="site-section site-portfolio">
+      <div class="container">
+        <div class="row mb-5 align-items-center">
+          <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
+
+
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="submit" class="readmore d-block w-100" value="평점 입력 후 클릭하세요!">
+                  </div>
+                </div>
+
+
+          </div>
+
+        </div>
+        <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
+
+          {% for r in sql_list %}
+          <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
+            <a class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>{{r.title}}</h3>
+                <div class="star-rating">
+                  <span class="star star_left"></span>
+                  <span class="star star_right"></span>
+
+                  <span class="star star_left"></span>
+                  <span class="star star_right"></span>
+
+                  <span class="star star_left"></span>
+                  <span class="star star_right"></span>
+
+                 <span class="star star_left"></span>
+                 <span class="star star_right"></span>
+
+                 <span class="star star_left"></span>
+                 <span class="star star_right"></span>
+                 <p>
+                   <input type="hidden" value='0' name="movierating" id="{{r.movie_id}}_movieid">
+                   <input type="hidden" name="movieid" value="{{r.movie_id}}">
+                 </p>
+              </div>
+            </div>
+              <img style="width:350px; height:500px" class="img-fluid" src="/static/movie_img/{{r.img_title}}">
+            </a>
+          </div>
+          {% endfor %}
+
+        </div>
+      </div>
+    </div>
+
+    </form>
+
+  </main>
+
+  {% include 'include/footer.html' %}
+
+  <script type="text/javascript">
+    $( document ).ready(function() {
+
+      if('{{type}}' == 'search'){
+        alert({{result}} + '건이 검색되었습니다.');
+      }
+      // p태그가 위에 있으면 영역설정이 잘못된다.
+      $("div.star-rating > span.star").click(function(){
+          var idx = $(this).index();
+          // 인덱스는 0부터
+          $(this).parent('div').find(".star").removeClass("on");
+             for(var i=0; i<=idx; i++){
+             $(this).parent('div').find(".star").eq(i).addClass("on");
+          }
+          var rating = idx / 2 + 0.5;
+          $(this).parent('div').find('p > input[name="movierating"]').val(rating);
+      });
+
+
+      $("#requestbutton2222").click(function(){
+          alert($("#movie_title").val());
+          $.ajax({
+              type : "post",
+              url : "search/" + $("#movie_title").val(),
+              dataType : "text",
+              data : {
+                        "movie_title" : $("#movie_title").val()
+                      },
+              error : function(data){
+                alert(data);
+                console.log(data);
+              },
+              success : function(data){
+                  alert(data);
+              }
+          });
+      });
+
+    });
+  </script>
+
+</body>
+
+</html>

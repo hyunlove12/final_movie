@@ -1,0 +1,463 @@
+movieId,title,genres
+1,Toy Story ,1.jpg
+2,Jumanji ,2.jpg
+3,Grumpier Old Men ,3.jpg
+5,Father of the Bride Part II ,5.jpg
+6,Heat ,6.jpg
+7,Sabrina ,7.jpg
+10,GoldenEye ,10.jpg
+11,"American President, The ",11.jpg
+16,Casino ,16.jpg
+17,Sense and Sensibility ,17.jpg
+19,Ace Ventura: When Nature Calls ,19.jpg
+21,Get Shorty ,21.jpg
+25,Leaving Las Vegas ,25.jpg
+32,Twelve Monkeys ,32.jpg
+34,Babe ,34.jpg
+36,Dead Man Walking ,36.jpg
+39,Clueless ,39.jpg
+44,Mortal Kombat ,44.jpg
+47,Seven ,47.jpg
+48,Pocahontas ,48.jpg
+50,"Usual Suspects, The ",50.jpg
+58,"Postman, The ",58.jpg
+62,Mr. Holland's Opus ,62.jpg
+70,From Dusk Till Dawn ,70.jpg
+95,Broken Arrow ,95.jpg
+104,Happy Gilmore ,104.jpg
+110,Braveheart ,110.jpg
+111,Taxi Driver ,111.jpg
+112,Rumble in the Bronx ,112.jpg
+141,"Birdcage, The ",141.jpg
+145,Bad Boys ,145.jpg
+150,Apollo 13 ,150.jpg
+151,Rob Roy ,151.jpg
+153,Batman Forever ,153.jpg
+158,Casper ,158.jpg
+160,Congo ,160.jpg
+161,Crimson Tide ,161.jpg
+163,Desperado ,163.jpg
+165,Die Hard: With a Vengeance ,165.jpg
+168,First Knight ,168.jpg
+172,Johnny Mnemonic ,172.jpg
+173,Judge Dredd ,173.jpg
+185,"Net, The ",185.jpg
+186,Nine Months ,186.jpg
+196,Species ,196.jpg
+208,Waterworld ,208.jpg
+223,Clerks ,223.jpg
+225,Disclosure ,225.jpg
+231,Dumb & Dumber ,231.jpg
+235,Ed Wood ,235.jpg
+236,French Kiss ,236.jpg
+246,Hoop Dreams ,246.jpg
+252,I.Q. ,252.jpg
+253,Interview with the Vampire: The Vampire Chronicles ,253.jpg
+260,Star Wars: Episode IV - A New Hope ,260.jpg
+261,Little Women ,261.jpg
+265,Like Water for Chocolate ,265.jpg
+266,Legends of the Fall ,266.jpg
+282,Nell ,282.jpg
+288,Natural Born Killers ,288.jpg
+292,Outbreak ,292.jpg
+293,Léon: The Professional ,293.jpg
+296,Pulp Fiction ,296.jpg
+300,Quiz Show ,300.jpg
+315,"Specialist, The ",315.jpg
+316,Stargate ,316.jpg
+317,"Santa Clause, The ",317.jpg
+318,"Shawshank Redemption, The ",318.jpg
+329,Star Trek: Generations ,329.jpg
+333,Tommy Boy ,333.jpg
+337,What's Eating Gilbert Grape ,337.jpg
+339,While You Were Sleeping ,339.jpg
+342,Muriel's Wedding ,342.jpg
+344,Ace Ventura: Pet Detective ,344.jpg
+345,"Adventures of Priscilla, Queen of the Desert, The ",345.jpg
+349,Clear and Present Danger ,349.jpg
+350,"Client, The ",350.jpg
+353,"Crow, The ",353.jpg
+356,Forrest Gump ,356.jpg
+357,Four Weddings and a Funeral ,357.jpg
+364,"Lion King, The ",364.jpg
+367,"Mask, The ",367.jpg
+368,Maverick ,368.jpg
+370,Naked Gun 33 1/3: The Final Insult ,370.jpg
+376,"River Wild, The ",376.jpg
+377,Speed ,377.jpg
+380,True Lies ,380.jpg
+410,Addams Family Values ,410.jpg
+420,Beverly Hills Cop III ,420.jpg
+432,City Slickers II: The Legend of Curly's Gold ,432.jpg
+434,Cliffhanger ,434.jpg
+435,Coneheads ,435.jpg
+440,Dave ,440.jpg
+442,Demolition Man ,442.jpg
+454,"Firm, The ",454.jpg
+457,"Fugitive, The ",457.jpg
+466,Hot Shots! Part Deux ,466.jpg
+471,"Hudsucker Proxy, The ",471.jpg
+474,In the Line of Fire ,474.jpg
+480,Jurassic Park ,480.jpg
+485,Last Action Hero ,485.jpg
+494,Executive Decision ,494.jpg
+497,Much Ado About Nothing ,497.jpg
+500,Mrs. Doubtfire ,500.jpg
+508,Philadelphia ,508.jpg
+509,"Piano, The ",509.jpg
+515,"Remains of the Day, The ",515.jpg
+520,Robin Hood: Men in Tights ,520.jpg
+527,Schindler's List ,527.jpg
+529,Searching for Bobby Fischer ,529.jpg
+539,Sleepless in Seattle ,539.jpg
+541,Blade Runner ,541.jpg
+543,So I Married an Axe Murderer ,543.jpg
+551,"Nightmare Before Christmas, The ",551.jpg
+552,"Three Musketeers, The ",552.jpg
+553,Tombstone ,553.jpg
+555,True Romance ,555.jpg
+586,Home Alone ,586.jpg
+587,Ghost ,587.jpg
+588,Aladdin ,588.jpg
+589,Terminator 2: Judgment Day ,589.jpg
+590,Dances with Wolves ,590.jpg
+592,Batman ,592.jpg
+593,"Silence of the Lambs, The ",593.jpg
+594,Snow White and the Seven Dwarfs ,594.jpg
+595,Beauty and the Beast ,595.jpg
+596,Pinocchio ,596.jpg
+597,Pretty Woman ,597.jpg
+608,Fargo ,608.jpg
+628,Primal Fear ,628.jpg
+648,Mission: Impossible ,648.jpg
+653,Dragonheart ,653.jpg
+661,James and the Giant Peach ,661.jpg
+708,"Truth About Cats & Dogs, The ",708.jpg
+733,"Rock, The ",733.jpg
+736,Twister ,736.jpg
+745,Wallace & Gromit: A Close Shave ,745.jpg
+750,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb ,750.jpg
+778,Trainspotting ,778.jpg
+780,Independence Day ,780.jpg
+783,"Hunchback of Notre Dame, The ",783.jpg
+784,"Cable Guy, The ",784.jpg
+785,Kingpin ,785.jpg
+786,Eraser ,786.jpg
+788,"Nutty Professor, The ",788.jpg
+802,Phenomenon ,802.jpg
+805,"Time to Kill, A ",805.jpg
+832,Ransom ,832.jpg
+852,Tin Cup ,852.jpg
+858,"Godfather, The ",858.jpg
+899,Singin' in the Rain ,899.jpg
+903,Vertigo ,903.jpg
+904,Rear Window ,904.jpg
+908,North by Northwest ,908.jpg
+910,Some Like It Hot ,910.jpg
+912,Casablanca ,912.jpg
+913,"Maltese Falcon, The ",913.jpg
+919,"Wizard of Oz, The ",919.jpg
+920,Gone with the Wind ,920.jpg
+923,Citizen Kane ,923.jpg
+924,2001: A Space Odyssey ,924.jpg
+953,It's a Wonderful Life ,953.jpg
+969,"African Queen, The ",969.jpg
+1028,Mary Poppins ,1028.jpg
+1035,"Sound of Music, The ",1035.jpg
+1036,Die Hard ,1036.jpg
+1059,William Shakespeare's Romeo + Juliet ,1059.jpg
+1073,Willy Wonka & the Chocolate Factory ,1073.jpg
+1079,"Fish Called Wanda, A ",1079.jpg
+1080,Monty Python's Life of Brian ,1080.jpg
+1088,Dirty Dancing ,1088.jpg
+1089,Reservoir Dogs ,1089.jpg
+1090,Platoon ,1090.jpg
+1092,Basic Instinct ,1092.jpg
+1094,"Crying Game, The ",1094.jpg
+1097,E.T. the Extra-Terrestrial ,1097.jpg
+1101,Top Gun ,1101.jpg
+1127,"Abyss, The ",1127.jpg
+1136,Monty Python and the Holy Grail ,1136.jpg
+1148,Wallace & Gromit: The Wrong Trousers ,1148.jpg
+1183,"English Patient, The ",1183.jpg
+1193,One Flew Over the Cuckoo's Nest ,1193.jpg
+1196,Star Wars: Episode V - The Empire Strikes Back ,1196.jpg
+1197,"Princess Bride, The ",1197.jpg
+1198,Raiders of the Lost Ark ,1198.jpg
+1199,Brazil ,1199.jpg
+1200,Aliens ,1200.jpg
+1201,"Good, the Bad and the Ugly, The ",1201.jpg
+1203,12 Angry Men ,1203.jpg
+1204,Lawrence of Arabia ,1204.jpg
+1206,"Clockwork Orange, A ",1206.jpg
+1207,To Kill a Mockingbird ,1207.jpg
+1208,Apocalypse Now ,1208.jpg
+1210,Star Wars: Episode VI - Return of the Jedi ,1210.jpg
+1213,Goodfellas ,1213.jpg
+1214,Alien ,1214.jpg
+1215,Army of Darkness ,1215.jpg
+1219,Psycho ,1219.jpg
+1220,"Blues Brothers, The ",1220.jpg
+1221,"Godfather: Part II, The ",1221.jpg
+1222,Full Metal Jacket ,1222.jpg
+1225,Amadeus ,1225.jpg
+1230,Annie Hall ,1230.jpg
+1233,"Boot, Das ",1233.jpg
+1234,"Sting, The ",1234.jpg
+1240,"Terminator, The ",1240.jpg
+1242,Glory ,1242.jpg
+1246,Dead Poets Society ,1246.jpg
+1247,"Graduate, The ",1247.jpg
+1250,"Bridge on the River Kwai, The ",1250.jpg
+1252,Chinatown ,1252.jpg
+1258,"Shining, The ",1258.jpg
+1259,Stand by Me ,1259.jpg
+1262,"Great Escape, The ",1262.jpg
+1263,"Deer Hunter, The ",1263.jpg
+1265,Groundhog Day ,1265.jpg
+1266,Unforgiven ,1266.jpg
+1270,Back to the Future ,1270.jpg
+1275,Highlander ,1275.jpg
+1276,Cool Hand Luke ,1276.jpg
+1278,Young Frankenstein ,1278.jpg
+1282,Fantasia ,1282.jpg
+1285,Heathers ,1285.jpg
+1288,This Is Spinal Tap ,1288.jpg
+1291,Indiana Jones and the Last Crusade ,1291.jpg
+1293,Gandhi ,1293.jpg
+1302,Field of Dreams ,1302.jpg
+1304,Butch Cassidy and the Sundance Kid ,1304.jpg
+1307,When Harry Met Sally... ,1307.jpg
+1320,Alien³ ,1320.jpg
+1333,"Birds, The ",1333.jpg
+1339,Dracula ,1339.jpg
+1356,Star Trek: First Contact ,1356.jpg
+1358,Sling Blade ,1358.jpg
+1370,Die Hard 2 ,1370.jpg
+1372,Star Trek VI: The Undiscovered Country ,1372.jpg
+1374,Star Trek II: The Wrath of Khan ,1374.jpg
+1375,Star Trek III: The Search for Spock ,1375.jpg
+1376,Star Trek IV: The Voyage Home ,1376.jpg
+1377,Batman Returns ,1377.jpg
+1380,Grease ,1380.jpg
+1387,Jaws ,1387.jpg
+1391,Mars Attacks! ,1391.jpg
+1393,Jerry Maguire ,1393.jpg
+1394,Raising Arizona ,1394.jpg
+1396,Sneakers ,1396.jpg
+1407,Scream ,1407.jpg
+1408,"Last of the Mohicans, The ",1408.jpg
+1466,Donnie Brasco ,1466.jpg
+1485,Liar Liar ,1485.jpg
+1500,Grosse Pointe Blank ,1500.jpg
+1517,Austin Powers: International Man of Mystery ,1517.jpg
+1527,"Fifth Element, The ",1527.jpg
+1544,"Lost World: Jurassic Park, The ",1544.jpg
+1552,Con Air ,1552.jpg
+1573,Face/Off ,1573.jpg
+1580,Men in Black ,1580.jpg
+1584,Contact ,1584.jpg
+1597,Conspiracy Theory ,1597.jpg
+1608,Air Force One ,1608.jpg
+1610,"Hunt for Red October, The ",1610.jpg
+1617,L.A. Confidential ,1617.jpg
+1625,"Game, The ",1625.jpg
+1639,Chasing Amy ,1639.jpg
+1641,"Full Monty, The ",1641.jpg
+1645,"Devil's Advocate, The ",1645.jpg
+1653,Gattaca ,1653.jpg
+1673,Boogie Nights ,1673.jpg
+1674,Witness ,1674.jpg
+1676,Starship Troopers ,1676.jpg
+1682,"Truman Show, The ",1682.jpg
+1690,Alien: Resurrection ,1690.jpg
+1704,Good Will Hunting ,1704.jpg
+1721,Titanic ,1721.jpg
+1722,Tomorrow Never Dies ,1722.jpg
+1729,Jackie Brown ,1729.jpg
+1732,"Big Lebowski, The ",1732.jpg
+1747,Wag the Dog ,1747.jpg
+1748,Dark City ,1748.jpg
+1777,"Wedding Singer, The ",1777.jpg
+1784,As Good as It Gets ,1784.jpg
+1876,Deep Impact ,1876.jpg
+1909,"X-Files: Fight the Future, The ",1909.jpg
+1917,Armageddon ,1917.jpg
+1923,There's Something About Mary ,1923.jpg
+1954,Rocky ,1954.jpg
+1961,Rain Man ,1961.jpg
+1968,"Breakfast Club, The ",1968.jpg
+1997,"Exorcist, The ",1997.jpg
+2000,Lethal Weapon ,2000.jpg
+2001,Lethal Weapon 2 ,2001.jpg
+2003,Gremlins ,2003.jpg
+2005,"Goonies, The ",2005.jpg
+2006,"Mask of Zorro, The ",2006.jpg
+2011,Back to the Future Part II ,2011.jpg
+2012,Back to the Future Part III ,2012.jpg
+2019,Seven Samurai ,2019.jpg
+2023,"Godfather: Part III, The ",2023.jpg
+2028,Saving Private Ryan ,2028.jpg
+2054,"Honey, I Shrunk the Kids ",2054.jpg
+2080,Lady and the Tramp ,2080.jpg
+2081,"Little Mermaid, The ",2081.jpg
+2100,Splash ,2100.jpg
+2105,Tron ,2105.jpg
+2115,Indiana Jones and the Temple of Doom ,2115.jpg
+2161,"NeverEnding Story, The ",2161.jpg
+2167,Blade ,2167.jpg
+2174,Beetlejuice ,2174.jpg
+2194,"Untouchables, The ",2194.jpg
+2268,"Few Good Men, A ",2268.jpg
+2291,Edward Scissorhands ,2291.jpg
+2294,Antz ,2294.jpg
+2302,My Cousin Vinny ,2302.jpg
+2321,Pleasantville ,2321.jpg
+2324,Life Is Beautiful ,2324.jpg
+2329,American History X ,2329.jpg
+2353,Enemy of the State ,2353.jpg
+2355,"Bug's Life, A ",2355.jpg
+2395,Rushmore ,2395.jpg
+2396,Shakespeare in Love ,2396.jpg
+2406,Romancing the Stone ,2406.jpg
+2407,Cocoon ,2407.jpg
+2424,You've Got Mail ,2424.jpg
+2455,"Fly, The ",2455.jpg
+2470,Crocodile Dundee ,2470.jpg
+2502,Office Space ,2502.jpg
+2529,Planet of the Apes ,2529.jpg
+2542,"Lock, Stock & Two Smoking Barrels ",2542.jpg
+2571,"Matrix, The ",2571.jpg
+2572,10 Things I Hate About You ,2572.jpg
+2599,Election ,2599.jpg
+2617,"Mummy, The ",2617.jpg
+2628,Star Wars: Episode I - The Phantom Menace ,2628.jpg
+2640,Superman ,2640.jpg
+2657,"Rocky Horror Picture Show, The ",2657.jpg
+2671,Notting Hill ,2671.jpg
+2683,Austin Powers: The Spy Who Shagged Me ,2683.jpg
+2692,Run Lola Run ,2692.jpg
+2699,Arachnophobia ,2699.jpg
+2700,"South Park: Bigger, Longer and Uncut ",2700.jpg
+2701,Wild Wild West ,2701.jpg
+2706,American Pie ,2706.jpg
+2710,"Blair Witch Project, The ",2710.jpg
+2712,Eyes Wide Shut ,2712.jpg
+2716,Ghostbusters ,2716.jpg
+2762,"Sixth Sense, The ",2762.jpg
+2763,"Thomas Crown Affair, The ",2763.jpg
+2791,Airplane! ,2791.jpg
+2797,Big ,2797.jpg
+2804,"Christmas Story, A ",2804.jpg
+2858,American Beauty ,2858.jpg
+2890,Three Kings ,2890.jpg
+2916,Total Recall ,2916.jpg
+2918,Ferris Bueller's Day Off ,2918.jpg
+2947,Goldfinger ,2947.jpg
+2959,Fight Club ,2959.jpg
+2985,RoboCop ,2985.jpg
+2987,Who Framed Roger Rabbit? ,2987.jpg
+2997,Being John Malkovich ,2997.jpg
+3033,Spaceballs ,3033.jpg
+3052,Dogma ,3052.jpg
+3081,Sleepy Hollow ,3081.jpg
+3114,Toy Story 2 ,3114.jpg
+3147,"Green Mile, The ",3147.jpg
+3160,Magnolia ,3160.jpg
+3175,Galaxy Quest ,3175.jpg
+3176,"Talented Mr. Ripley, The ",3176.jpg
+3253,Wayne's World ,3253.jpg
+3255,"League of Their Own, A ",3255.jpg
+3408,Erin Brockovich ,3408.jpg
+3418,Thelma & Louise ,3418.jpg
+3421,Animal House ,3421.jpg
+3448,"Good Morning, Vietnam ",3448.jpg
+3471,Close Encounters of the Third Kind ,3471.jpg
+3481,High Fidelity ,3481.jpg
+3527,Predator ,3527.jpg
+3578,Gladiator ,3578.jpg
+3623,Mission: Impossible II ,3623.jpg
+3671,Blazing Saddles ,3671.jpg
+3751,Chicken Run ,3751.jpg
+3753,"Patriot, The ",3753.jpg
+3793,X-Men ,3793.jpg
+3897,Almost Famous ,3897.jpg
+3911,Best in Show ,3911.jpg
+3948,Meet the Parents ,3948.jpg
+3949,Requiem for a Dream ,3949.jpg
+3977,Charlie's Angels ,3977.jpg
+3994,Unbreakable ,3994.jpg
+3996,"Crouching Tiger, Hidden Dragon ",3996.jpg
+4011,Snatch ,4011.jpg
+4014,Chocolat ,4014.jpg
+4022,Cast Away ,4022.jpg
+4027,"O Brother, Where Art Thou? ",4027.jpg
+4034,Traffic ,4034.jpg
+4085,Beverly Hills Cop ,4085.jpg
+4226,Memento ,4226.jpg
+4246,Bridget Jones's Diary ,4246.jpg
+4262,Scarface ,4262.jpg
+4306,Shrek ,4306.jpg
+4308,Moulin Rouge ,4308.jpg
+4370,A.I. Artificial Intelligence ,4370.jpg
+4720,"Others, The ",4720.jpg
+4878,Donnie Darko ,4878.jpg
+4886,"Monsters, Inc. ",4886.jpg
+4896,Harry Potter and the Sorcerer's Stone ,4896.jpg
+4963,Ocean's Eleven ,4963.jpg
+4973,Amelie ,4973.jpg
+4979,"Royal Tenenbaums, The ",4979.jpg
+4993,"Lord of the Rings: The Fellowship of the Ring, The ",4993.jpg
+4995,"Beautiful Mind, A ",4995.jpg
+5010,Black Hawk Down ,5010.jpg
+5060,M*A*S*H ,5060.jpg
+5218,Ice Age ,5218.jpg
+5299,My Big Fat Greek Wedding ,5299.jpg
+5349,Spider-Man ,5349.jpg
+5378,Star Wars: Episode II - Attack of the Clones ,5378.jpg
+5418,"Bourne Identity, The ",5418.jpg
+5445,Minority Report ,5445.jpg
+5502,Signs ,5502.jpg
+5618,Spirited Away ,5618.jpg
+5669,Bowling for Columbine ,5669.jpg
+5816,Harry Potter and the Chamber of Secrets ,5816.jpg
+5952,"Lord of the Rings: The Two Towers, The ",5952.jpg
+5989,Catch Me If You Can ,5989.jpg
+5995,"Pianist, The ",5995.jpg
+6016,City of God ,6016.jpg
+6333,X2: X-Men United ,6333.jpg
+6365,"Matrix Reloaded, The ",6365.jpg
+6377,Finding Nemo ,6377.jpg
+6502,28 Days Later ,6502.jpg
+6539,Pirates of the Caribbean: The Curse of the Black Pearl ,6539.jpg
+6711,Lost in Translation ,6711.jpg
+6874,Kill Bill: Vol. 1 ,6874.jpg
+6934,"Matrix Revolutions, The ",6934.jpg
+7143,"Last Samurai, The ",7143.jpg
+7147,Big Fish ,7147.jpg
+7153,"Lord of the Rings: The Return of the King, The ",7153.jpg
+7361,Eternal Sunshine of the Spotless Mind ,7361.jpg
+7438,Kill Bill: Vol. 2 ,7438.jpg
+8360,Shrek 2 ,8360.jpg
+8368,Harry Potter and the Prisoner of Azkaban ,8368.jpg
+8636,Spider-Man 2 ,8636.jpg
+8665,"Bourne Supremacy, The ",8665.jpg
+8874,Shaun of the Dead ,8874.jpg
+8961,"Incredibles, The ",8961.jpg
+32587,Sin City ,32587.jpg
+33493,Star Wars: Episode III - Revenge of the Sith ,33493.jpg
+33794,Batman Begins ,33794.jpg
+44191,V for Vendetta ,44191.jpg
+46578,Little Miss Sunshine ,46578.jpg
+48394,Pan's Labyrinth ,48394.jpg
+48516,"Departed, The ",48516.jpg
+48780,"Prestige, The ",48780.jpg
+49272,Casino Royale ,49272.jpg
+51662,300 ,51662.jpg
+54286,"Bourne Ultimatum, The ",54286.jpg
+55820,No Country for Old Men ,55820.jpg
+56367,Juno ,56367.jpg
+58559,"Dark Knight, The ",58559.jpg
+59315,Iron Man ,59315.jpg
+60069,WALL·E ,60069.jpg
+79132,Inception ,79132.jpg

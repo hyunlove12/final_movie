@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include 'include/head.html' %}
+
+<body>
+
+  <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
+    <div class="container py-2 py-md-5">
+      <div class="row align-items-start">
+        <div class="col-md-2">
+          <ul class="custom-menu">
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="works.html">Works</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 d-none d-md-block  mr-auto">
+          <div class="tweet d-flex">
+            <span class="icofont-twitter text-white mt-2 mr-3"></span>
+            <div>
+              <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut
+                  officiis explicabo inventore. <br> <a href="#">t.co/v82jsk</a></em></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-none d-md-block">
+          <h3>Hire Me</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiis
+            explicabo inventore. <br> <a href="#">myemail@gmail.com</a></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <nav class="navbar navbar-light custom-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="/">영화 평점 분석</a>
+
+      <a href="#" class="burger" data-toggle="collapse" data-target="#main-navbar">
+        <span></span>
+      </a>
+
+    </div>
+  </nav>
+
+  <main id="main">
+
+    <div class="site-section site-portfolio">
+      <div class="container">
+        <div class="row mb-5 align-items-center">
+          <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
+
+            <form action="search" method="post" role="form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="movie_title" class="form-control" data-rule="minlen:1" data-msg="1글자 이상 입력하세요!" id="movie_title" placeholder="영화명을 입력하세요" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="submit" class="readmore d-block w-100" value="검색">
+                </div>
+              </div>
+            </form>
+
+          </div>
+          <div class="col-md-12 col-lg-6 text-left text-lg-right" data-aos="fade-up" data-aos-delay="100">
+            <div id="filters" class="filters">
+              <a href="#" data-filter="*" class="active">영화별</a>
+              <a href="#" data-filter=".web">장르별</a>
+            </div>
+          </div>
+        </div>
+        <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
+
+          {% for r in sql_list %}
+          <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
+            <a href="/detail/{{r.movie_id}}" class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>{{r.title}}</h3>
+                <span>Web</span>
+              </div>
+              <img style="width:350px; height:500px" class="img-fluid" src="/static/movie_img/{{r.img_title}}">
+            </a>
+          </div>
+          {% endfor %}
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  {% include 'include/footer.html' %}
+
+  <script type="text/javascript">
+    $( document ).ready(function() {
+
+      if('{{type}}' == 'search'){
+        alert({{result}} + '건이 추천되었습니다.');
+      }
+
+      $("#requestbutton2222").click(function(){
+          alert($("#movie_title").val());
+          $.ajax({
+              type : "post",
+              url : "search/" + $("#movie_title").val(),
+              dataType : "text",
+              data : {
+                        "movie_title" : $("#movie_title").val()
+                      },
+              error : function(data){
+                alert(data);
+                console.log(data);
+              },
+              success : function(data){
+                  alert(data);
+              }
+          });
+      });
+
+    });
+  </script>
+
+</body>
+
+</html>
