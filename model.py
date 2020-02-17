@@ -69,6 +69,11 @@ class data_model:
 
 
     def sim_movie(self, title):
+        '''
+        surprise 라이브러리(코사인 유사도)를 이용한 영화 추천
+        :param title:
+        :return:
+        '''
         import sys, gc
 
         # Load movies data
@@ -138,7 +143,7 @@ class data_model:
         latent_matrix_2_df = pd.DataFrame(
             latent_matrix_2,
             index=Final.title.tolist())
-        
+
 
 
         from sklearn.metrics.pairwise import cosine_similarity
